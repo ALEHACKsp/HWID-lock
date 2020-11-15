@@ -40,3 +40,9 @@ int HardwareID()
 
 
 }
+
+int main()
+{
+   HardwareID();
+   while (true) { Sleep(1); }
+}	
